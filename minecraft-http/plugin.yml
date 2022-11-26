@@ -1,0 +1,12 @@
+name: MinecraftHttp
+main: test.MinecraftHttp
+version: 1.0
+api-version: 1.13
+commands:
+libraries:
+  - nl.big-o:liqp:0.8.3.3
+  - org.antlr:antlr4-runtime:4.7.2
+  - com.fasterxml.jackson.core:jackson-core:2.14.1
+  - com.fasterxml.jackson.core:jackson-databind:2.14.1
+  - com.fasterxml.jackson.core:jackson-annotations:2.14.1
+  - com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.1

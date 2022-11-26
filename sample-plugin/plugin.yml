@@ -1,0 +1,11 @@
+name: SamplePlugin
+main: sample.SamplePlugin
+version: 1.0
+api-version: 1.13
+commands:
+   diamonds:
+      description: give diamonds to all users
+      usage: /diamonds
+   liquidexample:
+      description: show an example of liquid
+      usage: /liquidexample

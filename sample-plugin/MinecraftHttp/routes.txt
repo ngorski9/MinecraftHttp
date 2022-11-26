@@ -1,0 +1,2 @@
+/diamonds
+/different_route_names,liquidexample
