@@ -16,11 +16,17 @@ Fortunately, Spigot will manually fetch the dependencies from Maven Central when
 
 ## Usage
 
-### Hosting a static website
+### Connecting to the Web Server
+
+The server has the same ip-address as your Minecraft server, but runs on port 8000 rather than port 25565. You can connect to it by typing this ip address into your browser.
+
+As an example, if your server has ip-address 12.34.56.789:25565, then to connect to the website, you would type 12.34.56.789:8000 into your browser.
+
+### Hosting a Static Website
 
 When you run the plugin, it will create a folder called MinecraftHttp-Static in your server's directory. You can insert files into this folder and it will host them statically.
 
-### Interacting with this plugin using other plugins
+### Interacting With This Plugin Using Other Plugins
 
 You can extend this plugin by creating another plugin. You do not need to reference this plugin's source code when doing so, although you need to set up your plugin in a certain way:
 
