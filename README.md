@@ -38,8 +38,8 @@ To tell the server what you would like to respond with, you should send a messag
 
 To respond with a string, simply send the string that you want to respond with back to the sender.
 
-To respond with a static file, respond with the message "file:<file name>". Be sure to include extensions on the filename.
+To respond with a static file, respond with the message "file:[file name]". Be sure to include extensions on the filename.
 
-To respond with a liquid template, respond with "template:<template_name>,<arguments>". Template name should be the full filename of the template, including the extension. Arguments should be a string representation of a JSON dictionary. Do not include any spaces before or after the comma.
+To respond with a liquid template, respond with "template:[template_name],[arguments]". Template name should be the full filename of the template, including the extension. Arguments should be a string representation of a JSON dictionary. Do not include any spaces before or after the comma.
 
 To see examples of each of these uses, refer to the example in sample-plugin.
