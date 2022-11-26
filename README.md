@@ -12,7 +12,7 @@ The code for the plugin is in the folder minecraft-http. The folder sample-plugi
 
 This plugin relies on [Liqp](https://github.com/bkiers/Liqp), which in-turn relies on [ANTLR](https://www.antlr.org/) and [Jackson](https://github.com/FasterXML/jackson).
 
-Fortunately, Spigot will manually fetch the dependencies from Maven Central when you enable the plugin, so you do not need to download anything to use this plugin, nor do you need to set up a Maven repository if you want to modify this code.
+Fortunately, Spigot will manually fetch the dependencies from Maven Central when you enable the plugin, so you do not need to download anything to use this plugin, nor do you need to set up a Maven repository if you want to modify this code. Also, the server code is totally self-contained, so to develop plugins which interact with this plugin you do not need to download anything.
 
 ## Usage
 
