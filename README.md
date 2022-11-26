@@ -30,7 +30,7 @@ Your plugin must have a folder called MinecraftHttp. This folder should contain 
 
 There should also be a file called routes.txt. Each line of this file should list all custom routes that you plan on running from your plugin. Each route's code is executed in a server command that you create. By default, the command that corresponds with the route will have the same name as the route (e.g., the /home route will work by running the /home command). However, if you want to run a different command with a route, put the name of the new command that you would like to run after the route name separated by a comma with no spaces. Do not include a backslash in the new command. So, for example, if you want the /home route to run the /sample command, put /home,sample in your routes.txt (you can also refer to the example in sample-plugin).
 
-### Handling custom routes
+### Writing Custom Handlers
 
 When you define a custom route, the server handles it by calling a server command which corresponds to that route (see: File System). The server will run the command with two paramters. The first parameter is a JSON dictionary of the get parameters, and the second is a JSON dictionary of the post parameters. For help working with JSON in Java, [see here](https://www.geeksforgeeks.org/parse-json-java/).
 
