@@ -1,6 +1,6 @@
 # MinecraftHttp
 
-### About
+## About
 
 MinecraftHttp is a plugin to turn your Minecraft server into a dynamic web server. You can use this plugin by itself to host a static website. You can also use your own plugins to define custom web routes which can take either get or post requests. These routes can run code to interact with the game. The custom routes can respond to requests with arbitrary strings to be used with AJAX, or filled-in templates using the Liquid Template Language.
 
